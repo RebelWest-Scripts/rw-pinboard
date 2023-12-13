@@ -1,0 +1,82 @@
+
+.telegram_container {
+    display: none;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 50%;
+    height: 50%;
+
+    background-image: url("telegram.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+textarea {
+	width: 100%;
+	margin-left:5%;
+	font-family: 'Playfair Display', serif;
+		font-size: 16px;
+		    background:transparent;
+			white-space: pre-wrap;
+}
+.write {
+    position: absolute;
+    margin-top: 113px;
+    margin-left: 50px;
+    width: 80%;
+}
+
+.telegram_buttons {
+    position: absolute;
+    margin-top: 45%;
+    width: 90%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.telegram_content {
+    position: absolute;
+    margin-top: 113px;
+    margin-left: 100px;
+    width: 80%;
+	height: 50%;
+	overflow-y: scroll;
+	white-space: pre-wrap;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 28px;
+    color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
